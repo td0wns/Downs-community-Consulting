@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
@@ -19,8 +18,8 @@ export default function Home() {
           <h1>Complex systems.<br /><span>Human answers.</span></h1>
           <p className="hero-intro">Downs Community Consulting helps organisations design revenue and engagement systems that remain credible when data, behaviour and circumstances change.</p>
           <div className="hero-links">
-            <Link className="solid-button" href="/solutions">Explore solutions <ArrowRight size={16} /></Link>
-            <Link className="line-link" href="/about">Meet the founder <ArrowUpRight size={15} /></Link>
+            <a className="solid-button" href="/solutions">Explore solutions <ArrowRight size={16} /></a>
+            <a className="line-link" href="/about">Meet the founder <ArrowUpRight size={15} /></a>
           </div>
         </div>
         <div className="home-hero-panel">
@@ -42,18 +41,18 @@ export default function Home() {
       <section className="two-practices section-shell">
         <p className="section-label">Two connected practices</p>
         <div className="practice-grid">
-          <Link href="/solutions" className="practice-card practice-dark">
+          <a href="/solutions" className="practice-card practice-dark">
             <span>Revenue systems</span>
             <h2>Automation that can recognise when reality has changed.</h2>
             <p>Salesforce and MCAE architecture for prediction, observation and responsible orchestration.</p>
             <strong>View solutions <ArrowRight size={16} /></strong>
-          </Link>
-          <Link href="/community" className="practice-card practice-light">
+          </a>
+          <a href="/community" className="practice-card practice-light">
             <span>Community infrastructure</span>
             <h2>Growth built through trust, proximity and participation.</h2>
             <p>Strategic frameworks for understanding how relationships become durable commercial infrastructure.</p>
             <strong>Explore the approach <ArrowRight size={16} /></strong>
-          </Link>
+          </a>
         </div>
       </section>
 
@@ -64,9 +63,9 @@ export default function Home() {
         </div>
         <div className="discipline-list">
           {disciplines.map(([number, title, text, href]) => (
-            <Link href={href} className="discipline-row" key={href}>
+            <a href={href} className="discipline-row" key={href}>
               <span>{number}</span><h3>{title}</h3><p>{text}</p><ArrowUpRight size={20} />
-            </Link>
+            </a>
           ))}
         </div>
       </section>
@@ -75,7 +74,7 @@ export default function Home() {
         <p className="section-label">The principle</p>
         <div>
           <h2>Rigorous enough for the boardroom.<br />Grounded enough for the real world.</h2>
-          <Link className="solid-button light-button" href="/about">Why DCC exists <ArrowRight size={16} /></Link>
+          <a className="solid-button light-button" href="/about">Why DCC exists <ArrowRight size={16} /></a>
         </div>
       </section>
       <SiteFooter />

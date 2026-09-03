@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
@@ -16,11 +15,11 @@ export function SectionIndex({ eyebrow, title, intro, items }: { eyebrow: string
       </header>
       <section className="index-list section-shell">
         {items.map((item) => (
-          <Link className="index-item" href={item.href} key={item.href}>
+          <a className="index-item" href={item.href} key={item.href}>
             <span className="index-number">{item.number}</span>
             <div><small>{item.label}</small><h2>{item.title}</h2><p>{item.description}</p></div>
             <ArrowUpRight size={24} />
-          </Link>
+          </a>
         ))}
       </section>
       <SiteFooter />

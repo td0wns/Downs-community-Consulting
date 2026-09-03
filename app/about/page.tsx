@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
@@ -34,8 +33,8 @@ export default function About() {
         <div>
           <h2>If you are trying to build something that lasts, let’s compare notes.</h2>
           <div className="connect-links">
-            <Link href="https://www.linkedin.com/in/trevor-downs-77a65a2b0" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={18} /></Link>
-            <Link href="https://www.salesforce.com/trailblazer/c8v5bjn0x8ky04vsee" target="_blank" rel="noreferrer">Trailhead <ArrowUpRight size={18} /></Link>
+            <a href="https://www.linkedin.com/in/trevor-downs-77a65a2b0" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={18} /></a>
+            <a href="https://www.salesforce.com/trailblazer/c8v5bjn0x8ky04vsee" target="_blank" rel="noreferrer">Trailhead <ArrowUpRight size={18} /></a>
           </div>
         </div>
       </section>

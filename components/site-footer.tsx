@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export function SiteFooter() {
   return (
@@ -10,9 +9,9 @@ export function SiteFooter() {
       </div>
       <div className="footer-links">
         <nav aria-label="Footer navigation">
-          <Link href="/solutions">Solutions</Link>
-          <Link href="/community">Community</Link>
-          <Link href="/about">About</Link>
+          <a href="/solutions">Solutions</a>
+          <a href="/community">Community</a>
+          <a href="/about">About</a>
         </nav>
         <p>© {new Date().getFullYear()} Downs Community Consulting</p>
       </div>

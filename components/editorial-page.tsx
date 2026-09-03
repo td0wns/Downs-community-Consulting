@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
@@ -34,7 +33,7 @@ export function EditorialPage({
       </header>
       <div className="editorial-shell">
         <aside>
-          <Link href={backHref}><ArrowLeft size={14} /> {backLabel}</Link>
+          <a href={backHref}><ArrowLeft size={14} /> {backLabel}</a>
           <span>Downs Community Consulting</span>
         </aside>
         <article className="editorial-body">
@@ -47,9 +46,9 @@ export function EditorialPage({
             </section>
           ))}
           {nextHref && nextLabel && (
-            <Link className="next-article" href={nextHref}>
+            <a className="next-article" href={nextHref}>
               <span>Continue reading</span><strong>{nextLabel}</strong><ArrowRight size={20} />
-            </Link>
+            </a>
           )}
         </article>
       </div>
