@@ -2,6 +2,8 @@ import { ArrowUpRight } from 'lucide-react';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 
+export const dynamic = 'force-static';
+
 export default function About() {
   return (
     <main>

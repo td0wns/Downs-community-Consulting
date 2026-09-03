@@ -1,5 +1,7 @@
 import { EditorialPage } from '@/components/editorial-page';
 
+export const dynamic = 'force-static';
+
 export default function CommunicationInfrastructure() {
   return <EditorialPage
     category="Community / Volume 01"

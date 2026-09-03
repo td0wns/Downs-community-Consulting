@@ -1,5 +1,7 @@
 import { EditorialPage } from '@/components/editorial-page';
 
+export const dynamic = 'force-static';
+
 export default function AiOrchestration() {
   return <EditorialPage
     category="MCAE / Orchestration"

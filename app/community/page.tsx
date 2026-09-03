@@ -1,5 +1,7 @@
 import { SectionIndex } from '@/components/section-index';
 
+export const dynamic = 'force-static';
+
 export default function Community() {
   return <SectionIndex
     eyebrow="The community approach"

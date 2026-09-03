@@ -1,5 +1,7 @@
 import { EditorialPage } from '@/components/editorial-page';
 
+export const dynamic = 'force-static';
+
 export default function PredictiveArchitecture() {
   return <EditorialPage
     category="MCAE / Prediction"
