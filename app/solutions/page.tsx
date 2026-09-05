@@ -4,13 +4,13 @@ export const dynamic = 'force-static';
 
 export default function Solutions() {
   return <SectionIndex
-    eyebrow="Marketing Cloud Account Engagement"
-    title="The strategic revenue core."
-    intro="MCAE can align data, intent and timing into coordinated commercial action. These three connected layers—prediction, observation and orchestration—turn it from a campaign executor into revenue infrastructure."
+    eyebrow="Salesforce & Marketing Cloud Account Engagement"
+    title="Architecture for decisions that cannot rely on stale certainty."
+    intro="DCC treats MCAE as more than a campaign engine. Connected properly to Salesforce, it can identify readiness, continuously test whether that judgement still holds and translate governed intelligence into the next appropriate action."
     items={[
-      { number: '01', label: 'Prediction', title: 'Predictive architecture', description: 'Design scoring, grading and segmentation around likelihood, recency and commercial context—not accumulated activity.', href: '/solutions/predictive-architecture' },
-      { number: '02', label: 'Observation', title: 'Self-healing systems', description: 'Use gates, explicit truth hierarchies and continuous reassessment to keep automation aligned as reality changes.', href: '/solutions/self-healing-systems' },
-      { number: '03', label: 'Orchestration', title: 'MCAE and Agentforce', description: 'Synchronise AI-derived signals into governed fields that can inform journeys without taking control of them.', href: '/solutions/ai-orchestration' },
+      { number: '01', label: 'Identify readiness', title: 'Predictive architecture', description: 'Model likelihood using the strength, timing and relational context of a signal—not a lifetime total of activity.', href: '/solutions/predictive-architecture' },
+      { number: '02', label: 'Protect integrity', title: 'Self-healing systems', description: 'Create rules that continually reassess eligibility, distinguish knowns from unknowns and surface drift before it compounds.', href: '/solutions/self-healing-systems' },
+      { number: '03', label: 'Govern action', title: 'Intelligent orchestration', description: 'Use Einstein and Agentforce as bounded sources of probability, with visible confidence and human oversight.', href: '/solutions/ai-orchestration' },
     ]}
   />;
 }
