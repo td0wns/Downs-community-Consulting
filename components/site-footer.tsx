@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="footer-top">
         <Image src="/downs-community-consulting-logo.png" alt="Downs Community Consulting" width={250} height={110} />
-        <p>Salesforce systems designed around<br />how organisations actually behave.</p>
+        <p>Community strategy designed around<br />how people connect, decide and act.</p>
       </div>
       <div className="footer-links">
         <nav aria-label="Footer navigation">
