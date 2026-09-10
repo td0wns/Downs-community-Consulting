@@ -5,12 +5,12 @@ export const dynamic = 'force-static';
 export default function Solutions() {
   return <SectionIndex
     eyebrow="Salesforce & Marketing Cloud Account Engagement"
-    title="Architecture for decisions that cannot rely on stale certainty."
-    intro="DCC treats MCAE as more than a campaign engine. Connected properly to Salesforce, it can identify readiness, continuously test whether that judgement still holds and translate governed intelligence into the next appropriate action."
+    title="Architecture for decisions made with changing data."
+    intro="DCC uses MCAE for more than campaign delivery. Working with Salesforce, it can identify likely readiness, check whether the evidence still holds and guide the next action under clear rules."
     items={[
-      { number: '01', label: 'Identify readiness', title: 'Predictive architecture', description: 'Model likelihood using the strength, timing and relational context of a signal—not a lifetime total of activity.', href: '/solutions/predictive-architecture' },
-      { number: '02', label: 'Protect integrity', title: 'Self-healing systems', description: 'Create rules that continually reassess eligibility, distinguish knowns from unknowns and surface drift before it compounds.', href: '/solutions/self-healing-systems' },
-      { number: '03', label: 'Govern action', title: 'Intelligent orchestration', description: 'Use Einstein and Agentforce as bounded sources of probability, with visible confidence and human oversight.', href: '/solutions/ai-orchestration' },
+      { number: '01', label: 'Identify readiness', title: 'Predictive architecture', description: 'Model likelihood from the strength, timing and relational context of a signal instead of relying on a lifetime activity total.', href: '/solutions/predictive-architecture' },
+      { number: '02', label: 'Protect integrity', title: 'Self-healing systems', description: 'Create rules that keep reassessing eligibility, distinguish knowns from unknowns and flag drift before it spreads through the system.', href: '/solutions/self-healing-systems' },
+      { number: '03', label: 'Govern action', title: 'Intelligent orchestration', description: 'Treat Einstein and Agentforce as sources of probability, keeping confidence visible and important decisions under human oversight.', href: '/solutions/ai-orchestration' },
     ]}
   />;
 }

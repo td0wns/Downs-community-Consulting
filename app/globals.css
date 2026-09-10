@@ -144,7 +144,7 @@ h1, h2, h3, p, blockquote { margin-top: 0; }
 .editorial-body blockquote { margin: 48px 0; padding: 28px 0 28px 30px; border-left: 3px solid var(--accent); color: var(--black); font-size: clamp(24px, 2.6vw, 36px); font-weight: 650; line-height: 1.25; letter-spacing: -.025em; }
 .editorial-body ul { margin: 36px 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .editorial-body li { padding: 16px 0; border-bottom: 1px solid var(--line); color: #4f4f4f; }
-.editorial-body li::before { content: '—'; margin-right: 13px; color: #8b6843; }
+.editorial-body li::before { content: '•'; margin-right: 13px; color: #8b6843; }
 .next-article { min-height: 155px; margin-top: 110px; padding: 28px 0; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; border-top: 1px solid var(--black); border-bottom: 1px solid var(--line); }
 .next-article span { grid-column: 1; color: #777; font-size: 12px; letter-spacing: .13em; text-transform: uppercase; }
 .next-article strong { grid-column: 1; font-size: 24px; }

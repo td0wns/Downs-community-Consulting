@@ -16,18 +16,18 @@ export default function About() {
       <section className="about-story section-shell">
         <p className="section-label">The consultancy</p>
         <div>
-          <h2>Relationships are not outside the system. They are part of what makes it work.</h2>
-          <p>Downs Community Consulting designs Salesforce and MCAE environments for complex organisations. The aim is not more automation for its own sake. It is a clearer view of readiness, stronger control over changing data and better decisions at the point where marketing, sales and customer relationships meet.</p>
-          <p>The name matters. Community is the lens DCC brings to technical work: people influence one another, trust moves through networks and decisions rarely belong to a single isolated record. Good architecture makes room for that reality while remaining disciplined enough to govern it.</p>
+          <h2>Relationships are part of the system.</h2>
+          <p>Downs Community Consulting designs Salesforce and MCAE environments for complex organisations. The work gives marketing and sales teams a clearer view of readiness, tighter control over changing data and a better basis for decisions where customer relationships meet.</p>
+          <p>The name matters because community shapes how DCC approaches technical work. People influence one another, trust moves through networks and few decisions belong to one isolated record. Good architecture accounts for those relationships while keeping the rules clear.</p>
         </div>
       </section>
       <section className="founder-story section-shell">
         <p className="section-label">The founder</p>
         <div>
           <h2>Trevor Downs</h2>
-          <p>Trevor has worked in events and community-led organisations since 2010, across B2B, consumer, charity, trade-show and digital settings. That work was an education in systems before it carried the label: budgets, data, technology, suppliers, audiences and last-minute human decisions all had to hold together in public.</p>
-          <p>It also made one pattern difficult to ignore. Information does not move evenly through an organisation. People trust familiar voices, borrow confidence from their peers and respond differently as circumstances change. Community strategy gave that pattern a framework; Salesforce and MCAE provide an environment in which it can be operationalised at scale.</p>
-          <p>Trevor now applies that combined perspective to revenue architecture, drawing on experience in project delivery, market research, leadership, CRM operations and international events. The approach is practical by design: understand the real journey, make uncertainty visible and build only what teams can confidently use.</p>
+          <p>Trevor has worked in events and community-led organisations since 2010, across B2B, consumer, charity, trade-show and digital settings. That work taught him to think in systems long before he used the term. Budgets, data, technology, suppliers, audiences and last-minute human decisions all had to hold together in public.</p>
+          <p>It also revealed a pattern that became difficult to ignore. Information does not move evenly through an organisation. People trust familiar voices, borrow confidence from their peers and respond differently as circumstances change. Community strategy gave that pattern a framework. Salesforce and MCAE provide an environment where it can be put to work at scale.</p>
+          <p>Trevor now brings that combined perspective to revenue architecture, drawing on experience in project delivery, market research, leadership, CRM operations and international events. He starts with the real journey, keeps uncertainty visible and builds systems that teams can use with confidence.</p>
         </div>
       </section>
       <section className="connect-section section-shell" id="connect">
