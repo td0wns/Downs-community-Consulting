@@ -2,8 +2,9 @@ import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 
 const navigation = [
-  ['Solutions', '/solutions'],
+  ['Home', '/'],
   ['Community', '/community'],
+  ['Solutions', '/solutions'],
   ['About', '/about'],
 ];
 

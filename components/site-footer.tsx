@@ -9,8 +9,9 @@ export function SiteFooter() {
       </div>
       <div className="footer-links">
         <nav aria-label="Footer navigation">
-          <a href="/solutions">Solutions</a>
+          <a href="/">Home</a>
           <a href="/community">Community</a>
+          <a href="/solutions">Solutions</a>
           <a href="/about">About</a>
         </nav>
         <p>© {new Date().getFullYear()} Downs Community Consulting</p>
